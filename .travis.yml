@@ -13,8 +13,8 @@ addons:
 
 script:
   - mos version
-  - mos build --local --clean --platform esp8266
-#  - mos build --local --clean --platform esp32
+  - mos build --local --clean --platform esp32
+#  - mos build --local --clean --platform esp8266
 #  - mos build --local --clean --platform cc3220
 #  - mos build --local --clean --platform stm32 --board B-L475E-IOT01A
 #  - mos build --local --clean --platform stm32 --board DISCO-F746NG
