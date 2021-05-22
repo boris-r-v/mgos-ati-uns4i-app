@@ -1,0 +1,23 @@
+author: Boris Rozhkin borisrozhkin@gmail.com
+description: Test application for mgos-ati-uns4i library
+arch: esp32
+version: 1.0
+manifest_version: 2017-05-18
+
+tags:
+  - js
+
+filesystem:
+  - fs
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+#  - origin: https://github.com/mongoose-os-libs/ca-bundle
+  - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/rpc-service-config
+  - origin: https://github.com/mongoose-os-libs/rpc-service-fs
+  - origin: https://github.com/mongoose-os-libs/rpc-uart
+  - origin: https://github.com/boris-r-v/mgos-ati-uns4i
+
+
+
