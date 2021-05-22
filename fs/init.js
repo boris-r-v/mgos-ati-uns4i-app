@@ -11,7 +11,7 @@ let uartno = 1;
 let uns_addr = 32;
 UNS4i.init(uartno, uns_addr);
 
-Timer.set( 1000, Timer.REPEAT, function() {
+Timer.set( 2000, Timer.REPEAT, function() {
   let value = GPIO.toggle(pin);
   print (value ? 'Tick' : 'Tack');
 

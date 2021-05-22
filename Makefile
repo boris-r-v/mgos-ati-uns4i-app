@@ -1,6 +1,6 @@
-.PHONY: build clean remake out
+.PHONY: build clean remake flash
 
-all: build
+all: build flash
     
 build: 
 		mos build --clean --local --verbose --platform=esp32
@@ -10,3 +10,5 @@ clean:
 
 remake: clean build
 
+flash:
+		mos flash
