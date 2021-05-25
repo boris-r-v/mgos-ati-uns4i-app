@@ -1,0 +1,20 @@
+{
+  "device": {
+    "id": "esp32_372528"
+  },
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "Meizu M2 NOTE",
+      "pass": "1234567890"
+    }
+  },
+  "mqtt": {
+    "enable": true,
+    "server": "192.168.43.174:1883"
+  },
+  "dash": {
+    "enable": true,
+    "token": "wHeXnsgo10Jm42JnOOb8ow"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "device": {
+    "id": "esp32_372528"
+  },
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "Nilksa2",
+      "pass": "Is0N1trophlex"
+    }
+  },
+  "mqtt": {
+    "enable": true,
+    "server": "10.0.10.45:1883"
+  },
+  "dash": {
+    "enable": true,
+    "token": "wHeXnsgo10Jm42JnOOb8ow"
+  }
+}
