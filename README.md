@@ -12,3 +12,7 @@ mgos-ati-uns4i-app
 **Features**
 
     1. :) - import and use the Library
+
+**To memorise
+
+    1.Set mqtt via rpc: mos call Config.Set '{"config": {"mqtt": {"enable": true, "server":"10.0.10.45:1883"}}}'

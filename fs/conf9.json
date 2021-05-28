@@ -3,6 +3,9 @@
     "id": "esp32_372528"
   },
   "wifi": {
+    "ap": {
+      "enable": false
+    },
     "sta": {
       "enable": true,
       "ssid": "Nilksa2",
