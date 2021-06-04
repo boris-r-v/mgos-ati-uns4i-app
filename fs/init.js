@@ -11,7 +11,7 @@ let pin = 2;
 GPIO.set_mode(pin, GPIO.MODE_OUTPUT);
 
 /*Конфигурация модуля УАРТа для опроса ЦНС4ш*/
-let uartno = 2;
+let uartno = 1;
 let uns_addr = 32;
 let uns_speed = 19200;
 UNS4i.init(uartno, uns_addr, uns_speed);
